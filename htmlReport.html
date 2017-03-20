@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>测试结果</title>
+    <meta name="generator" content="html-output-plugin 1.0.1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body{
+    background: #F8F8F8;
+    font: 14px "Meiryo", "Lucida Sans Unicode", "Lucida Grande", "tahoma", Verdana, sans-serif;
+    margin: 20px;
+    font-color: #2E2E2E;
+}
+table       { font-size: 100%; }
+pre         { }
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+    font-size: 20px;
+    color: #05774D;
+}
+a{
+    color: #08c;
+    text-decoration: none;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 5ex;
+}
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+.heading .attribute strong {
+    color: #08c;
+}
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+a.popup_link:hover {
+    color: red;
+}
+
+/* -- table ------------------------------------------------------------------------ */
+
+#result_table {
+    width: 100%;
+    border-collapse: collapse;
+    # border: 1px solid #777;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-image: -moz-linear-gradient(top, #F5F5F5 0%, #EEE 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F5F5F5), color-stop(100%,#EEE));
+    background-image: -webkit-linear-gradient(top, #F5F5F5 0%,#EEE 100%);
+    background-image: -ms-linear-gradient(top, #F5F5F5 0%,#EEE 100%);
+    background-image: -o-linear-gradient(top, #F5F5F5 0%,#EEE 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#eeeeee',GradientType=0 );
+    background-image: linear-gradient(top, #F5F5F5 0%,#EEE 100%);
+}
+#header_row {
+    background: #EEE;
+    color: #666;
+    height: 35px;
+    text-shadow: 0px 1px 0 #FFF;
+}
+
+#result_table tbody > tr > td {
+    padding: 5px 8px;
+    line-height: 20px;
+}
+#result_table tbody > tr > td.result_box{
+    padding: 0px;
+}
+#result_table tbody > tr > td .testcase{
+    margin: 0;
+}
+#result_table td {
+    border: 1px solid #777;
+    padding: 2px;
+}
+#result_table td{
+    /*-- border-color: #DFF8EA; --*/
+}
+
+#total_row  {
+    font-weight: bold;
+    color:#30078B;
+    background: #EEE;
+}
+
+.passClass  { background-color: #6c6; }
+.failClass  { background-color: #F2BB66; }
+.errorClass { background-color: #E55B3C; }
+.passCase   { color: #6c6; }
+.failCase   { color: #c60; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+/* -- ending ---------------------------------------------------------------------- */
+
+#ending {
+}
+
+.report-meta{
+    color:#08c
+    width: 100%;
+    height: 36px;
+    background-color: #EEE;
+    background-repeat: repeat-x;
+    background-image: -moz-linear-gradient(top, #F5F5F5 0%, #EEE 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F5F5F5), color-stop(100%,#EEE));
+    background-image: -webkit-linear-gradient(top, #F5F5F5 0%,#EEE 100%);
+    background-image: -ms-linear-gradient(top, #F5F5F5 0%,#EEE 100%);
+    background-image: -o-linear-gradient(top, #F5F5F5 0%,#EEE 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#eeeeee',GradientType=0 );
+    background-image: linear-gradient(top, #F5F5F5 0%,#EEE 100%);
+    border: 1px solid #E5E5E5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 0 0 5px;
+    }
+.report-meta ul {
+    margin: 0;
+    padding: 0 0 0 10px;
+    overflow: hidden;
+
+}
+.report-meta li {
+    list-style: none;
+    margin: 0 10px 0 0 !important;
+    padding: 0 10px 0 0;
+    float: left;
+    border-right: 1px solid #E5E5E5;
+    line-height: 36px;
+    color: #30078B;
+
+}
+.report-meta li:last-child {
+    border: none;
+
+}
+.heading .description {
+    margin: 0 0 20px;
+}
+.report-container{
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+    padding: 20px;
+    border-radius: 4px;
+}
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#show_detail_line{
+    margin: -20px -20px 20px;
+    background: #F00;
+    line-height: 35px;
+    padding: 0;
+    background: #FFF;
+    background: -moz-linear-gradient(top, #FFF 0%, #F7F7F7 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFF), color-stop(100%, #F7F7F7));
+    background: -webkit-linear-gradient(top, #FFF 0%, #F7F7F7 100%);
+    background: -o-linear-gradient(top, #FFF 0%, #F7F7F7 100%);
+    background: -ms-linear-gradient(top, #FFF 0%, #F7F7F7 100%);
+    background: linear-gradient(top, #FFF 0%,#F7F7F7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f7f7f7',GradientType=0 );
+    border-bottom: 1px solid #E3E3E3;
+}
+#show_detail_line a{
+    border-left: 1px solid #E3E3E3;
+    float: left;
+    padding: 0 25px;
+    text-decoration: none;
+}
+#show_detail_line a:first-child{
+    border: none;
+}
+#show_detail_line a:active{
+    box-shadow:0 3px 0 #08c inset;
+}
+
+
+/* --tooltip css --*/
+#tt {
+    position:absolute;
+    display:block;
+    /* -- background:url(images/tt_left.gif) top left no-repeat; --*/
+ }
+ #tttop {
+    display:block;
+    height:5px;
+    margin-left:5px;
+    /* -- background:url(images/tt_top.gif) top right no-repeat; --*/
+    overflow:hidden;
+ }
+ #ttcont {
+    display:block;
+    padding:2px 12px 3px 7px;
+    margin-left:5px;
+    background:#666;
+    color:#fff;
+ }
+#ttbot {
+    display:block;
+    height:5px;
+    margin-left:5px;
+    /* -- background:url(images/tt_bottom.gif) top right no-repeat;  --*/
+    overflow:hidden;
+}
+
+/* --help block --*/
+.help{
+    float:right;
+    display:inline;
+}
+
+/* --Modal Dialog --*/
+.modalDialog {
+        position: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0,0,0,0.8);
+        z-index: 99999;
+        opacity:0;
+        -webkit-transition: opacity 400ms ease-in;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+        pointer-events: none;
+    }
+
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 80%;
+    height:80%;
+    position: relative;
+    margin: 2% auto;
+    padding: 10px;
+    border-radius: 2px;
+    background: #eeffe6;
+    font-family: 'Cantarell', serif;
+    text-align: left;
+    font-size: 9pt;
+    resizable: yes;
+    overflow :auto;
+}
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 20px;
+    position: fixed;
+    text-align: center;
+    width: 20px;
+    text-decoration: none;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+    filter:alpha(opacity=30);
+    -moz-opacity:0.3;
+    -khtml-opacity: 0.3;
+    opacity: 0.3;
+}
+
+.close:hover {
+    background: #FE2E64;
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+}
+</style>
+
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 0) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            if(!!document.getElementById('div_'+tid))
+                document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+
+/* ----for tooltip -----*/
+var tooltip=function(){
+    var id = 'tt';
+    var top = 3;
+    var left = 3;
+    var maxw = 430;
+    var speed = 20;
+    var timer = 30;
+    var endalpha = 95;
+    var alpha = 0;
+    var tt,t,c,b,h;
+    var ie = document.all ? true : false;
+    return{
+        show:function(v,w){
+            if (v.length==0){
+                return
+            }
+            if(tt == null){
+                tt = document.createElement('div');
+                tt.setAttribute('id',id);
+                t = document.createElement('div');
+                t.setAttribute('id',id + 'top');
+                c = document.createElement('div');
+                c.setAttribute('id',id + 'cont');
+                b = document.createElement('div');
+                b.setAttribute('id',id + 'bot');
+                tt.appendChild(t);
+                tt.appendChild(c);
+                tt.appendChild(b);
+                document.body.appendChild(tt);
+                tt.style.opacity = 0;
+                tt.style.filter = 'alpha(opacity=0)';
+                document.onmousemove = this.pos;
+            }
+            tt.style.display = 'block';
+            c.innerHTML = v;
+            tt.style.width = w ? w + 'px' : 'auto';
+            if(!w && ie){
+                t.style.display = 'none';
+                b.style.display = 'none';
+                tt.style.width = tt.offsetWidth;
+                t.style.display = 'block';
+                b.style.display = 'block';
+            }
+            if(tt.offsetWidth > maxw){tt.style.width = maxw + 'px'}
+            h = parseInt(tt.offsetHeight) + top;
+            clearInterval(tt.timer);
+            tt.timer = setInterval(function(){tooltip.fade(1)},timer);
+        },
+        pos:function(e){
+            var u = ie ? event.clientY + document.documentElement.scrollTop : e.pageY;
+            var l = ie ? event.clientX + document.documentElement.scrollLeft : e.pageX;
+            tt.style.top = (u - h) + 'px';
+            tt.style.left = (l + left) + 'px';
+        },
+        fade:function(d){
+            var a = alpha;
+            if((a != endalpha && d == 1) || (a != 0 && d == -1)){
+                var i = speed;
+                if(endalpha - a < speed && d == 1){
+                    i = endalpha - a;
+                }else if(alpha < speed && d == -1){
+                    i = a;
+                }
+                alpha = a + (i * d);
+                tt.style.opacity = alpha * .01;
+                tt.style.filter = 'alpha(opacity=' + alpha + ')';
+            }else{
+                clearInterval(tt.timer);
+                if(d == -1){tt.style.display = 'none'}
+            }
+        },
+        hide:function(){
+            clearInterval(tt.timer);
+            tt.timer = setInterval(function(){tooltip.fade(-1)},timer);
+        }
+    };
+}();
+
+--></script>
+
+<div class='heading'>
+<h1>自动化报告</h1>
+<div class="report-meta">
+     <ul>
+        <li class='attribute'><strong>开始时间:</strong><ab></ab> 12-12 17:35:44</li>
+<li class='attribute'><strong>运行时间:</strong><ab></ab> 0:00:00</li>
+<li class='attribute'><strong>通过率:</strong><ab></ab> <b>0.00%</b></li>
+
+     </ul>
+</div>
+<p class='description'></p>
+</div>
+
+
+
+<!--p id='show_detail_line'>Show
+<div class="report-container">
+<p id='show_detail_line'>
+<a href='javascript:showCase(0)'>Summary</a>
+<a href='javascript:showCase(1)'>Failed</a>
+<a href='javascript:showCase(2)'>All</a-->
+
+<div id='show_detail_line'>
+        <a href='javascript:showCase(0)'>概要</a>
+        <a href='javascript:showCase(1)'>失败</a>
+        <a href='javascript:showCase(2)'>全部</a>
+</div>
+<table id='result_table'>
+<div  class='help' >
+    <span class='passClass' align="right">&nbsp;&nbsp;&nbsp;&nbsp;</span> <span style="color:gray">通过</span>
+    <span class='failClass' align="right">&nbsp;&nbsp;&nbsp;&nbsp;</span> <span style="color:gray">Bug</span>
+    <span class='errorClass' align="right">&nbsp;&nbsp;&nbsp;&nbsp;</span> <span style="color:gray">脚本/服务错误</span>
+</div>
+<colgroup>
+<col align='500px' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<!--tr id='header_row'>
+    <td>Test Group/Test case</td>
+    <td>Count</td>
+    <td>Pass</td>
+    <td>Fail</td>
+    <td>Error</td>
+    <td>View</td>
+</tr-->
+<tr id='header_row'>
+    <td>测试组/脚本</td>
+    <td>等级</td>
+    <td>状态</td>
+    <td>用时</td>
+    <td>数量</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>查看</td>
+</tr>
+
+<tr class='failClass'>
+    <td style="border-right:none">case.travelgroupservice.test_querytravelgrouplog.Test_querytravelgrouplog</td>
+    <td colspan='3' style="border-left:none"></td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <!--td><a href="javascript:showClassDetail('c1',1)">Detail</a></td-->
+    <td><a href="javascript:showClassDetail('c1',1)">查看</a></td>
+</tr>
+
+  <tr id='ft1.1' class='none'>
+    <td class='failCase'><div class='testcase'  onmouseover="tooltip.show('');" onmouseout="tooltip.hide();">test_querytravelgrouplog_OperateType1</div></td>
+    <td></td>
+    <td></td>
+    <td>0.14</td>
+    <td colspan='5' align='center'>
+        <a class="popup_link" onfocus='this.blur();' onmouseover="tooltip.show('AssertionError: 查询失败:长度返回错误');" onmouseout="tooltip.hide();"
+        href="#div_ft1.1" >fail</a>
+            <div id='div_ft1.1' class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">x</a>
+                        <pre>
+ft1.1: case.travelgroupservice.test_querytravelgrouplog.Test_querytravelgrouplog.test_querytravelgrouplog_OperateType1Traceback (most recent call last):
+  File "c:\python27\Lib\unittest\case.py", line 346, in run
+    testMethod()
+  File "D:\module\case\travelgroupservice\test_querytravelgrouplog.py", line 50, in test_querytravelgrouplog_OperateType1
+    self.querytravelgrouplo("1")
+  File "D:\module\case\travelgroupservice\test_querytravelgrouplog.py", line 36, in querytravelgrouplo
+    self.assertEqual(len(req["TravelGroupList"]), len(travelgrouplog), '查询失败:长度返回错误')
+  File "c:\python27\Lib\unittest\case.py", line 530, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "c:\python27\Lib\unittest\case.py", line 523, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 查询失败:长度返回错误
+-------------------- &gt;&gt; begin captured logging &lt;&lt; --------------------
+tcent.ta: INFO: 
+
+--------------------Start run: test_querytravelgrouplog_OperateType1--------------------
+tcent.ta: INFO: 
+************************ Request ***************************:
+
+{
+  "OperateType" : "1",
+  "GroupNo" : "",
+  "From" : 1,
+  "Size" : 25,
+}
+************************************************************
+tcent.ta: INFO: 
+
+--------------------- &gt;&gt; end captured logging &lt;&lt; ---------------------
+
+</pre>
+                </div>
+            </div>
+    </td>
+
+</tr>
+
+
+<!--tr id='total_row'>
+    <td>Total</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>&nbsp;</td>
+</tr-->
+<tr id='total_row'>
+    <td style="border-right:none">总数</td>
+    <td colspan='3' style="border-left:none"></td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</b></td>
+    <td>0</td>
+    <td>&nbsp;</td>
+</tr>
+
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</body>
+</html>
